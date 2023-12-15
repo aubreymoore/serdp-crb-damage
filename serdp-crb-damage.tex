@@ -1,0 +1,157 @@
+% Commented out: 
+% \addbibresource
+% \includepdf
+
+\documentclass[11pt,letterpaper,english,bibliography=totocnumbered, abstract=on]{scrartcl}
+
+\usepackage{indentfirst}
+\usepackage[titletoc]{appendix}
+\usepackage{fullpage}
+%\usepackage{subfiles}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage{color}
+\usepackage{babel}
+\usepackage{verbatim}
+\usepackage[unicode=true,pdfusetitle,
+bookmarks=true,bookmarksnumbered=false,bookmarksopen=false,
+breaklinks=true,pdfborder={0 0 0},pdfborderstyle={},backref=false,colorlinks=true]
+{hyperref}
+\hypersetup{linkcolor=blue,citecolor=blue,urlcolor=blue}
+
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{threeparttable}
+\usepackage[table]{xcolor}
+\usepackage{csquotes}
+\usepackage{soul} % for hiliting text: \hl
+
+\usepackage[backend=biber, style=authoryear, maxbibnames=99, dashed=false]{biblatex}
+\setlength\bibitemsep{2\itemsep}
+%\addbibresource{mylibrary.bib}
+%\addbibresource{CRB.bib}
+
+\usepackage{pdfpages}
+\usepackage{float} % Allows use of H to place floats
+
+\usepackage{pgfgantt}
+
+\usepackage{framed}
+
+% Prevent page breaks within paragraphs
+% https://tex.stackexchange.com/questions/21983/how-to-avoid-page-breaks-inside-paragraphs
+\widowpenalties 1 10000
+
+\usepackage{subfig}
+
+\usepackage{gensymb}
+
+\begin{document}
+
+\titlehead{DRAFT PROPOSAL}
+
+\title{Remote Sensing for Detection and Monitoring of Coconut Rhinoceros Beetle Damage}
+
+\author{Aubrey Moore, PhD}
+
+\maketitle
+
+\footnote{\url{https://aubreymoore.github.io/serdp-crb-damage/serdp-crb-damage.pdf}}
+
+%\newpage
+%\tableofcontents
+
+\pagebreak
+
+%\section{Introduction}
+%\section{Object detectors}
+%\section{Ground-based data acquisition}
+%\section{Aerial data acquisition}
+%\section{Mapping}
+%\section{Objectives}
+%\section{Work plan}
+
+\textit{Note to reader: Paragraphs in italics will be removed when the proposal is complete.}
+
+\section{Objective}
+
+\textit{The proposed objectives and how the project is responsive to the objectives
+articulated in the SON.}\\
+
+Our objective is to develop an automated remote sensing system that detects and monitors coconut rhinoceros beetle (CRB) damage on isolated Pacific islands. This proposal addresses the SON entitled \textbf{Advancing Non-Indigenous Invasive Species Surveillance, Mitigation, or Biosecurity Measures Affecting Military Readiness in the Indo-Pacific Region}.
+
+	
+\section{Background}
+
+\textit{Sufficient technical background to demonstrate a thorough understanding of the problem and frame the proposed research in the context of the current state of the
+science or technology.}\\
+
+The proposed project builds on an existing system which maps CRB damage using automated analysis of ground-based imagery which uses a smart phone mounted on a road vehicle for data acquisition. Currently, images are taken at a rate of one per second by a free cell phone app named OpenCamera. Each image is 1920 x 1080 pixels in size and GPS coordinates are embedded within the image file. Note that the phone does not require a SIM card or internet connection during data acquisition. 
+
+After transferring image files to a laptop computer, each is examined by a pair of object detectors trained by an artificial intelligence technique called deep learning. One detector puts a bounding box around all coconut palms within each image and assigns a standardized 5-scale damage index to each palm [REF]. The damage index is based on a standard methodology developed by CRB experts working on islands in the south Pacific [REF]. A second object detector counts v-shaped cuts to coconut palm in fronds which are distinctive signs of CRB feeding damage. Results are visualized using interactive web maps. This ground-based system has been used for routine roadside surveys on Guam and has also been used for early detection of CRB damage on Rota in the Commonwealth of the Northern Mariana Islands and on Majuro in the Republic of the Marshall Islands [REFS].
+
+For details on this ground-based CRB damage survey methodology see the attached file roadside.pdf.
+
+We will improve the existing ground-based system and adapt this system to use aerial drone imagery to facilitate:
+\begin{itemize}
+	\item CRB damage detection over large areas of remote, otherwise inaccessible, terrain
+	\item early detection and delimiting surveys in rapid response projects on islands where CRB has not yet established, increasing chances of eradication
+	\item monitoring temporal and spatial changes in CRB damage on islands where CRB has	established
+	\item measuring changes in CRB damage in response to biological control, sanitation, and other mitigation tactics
+\end{itemize}
+
+\section{Approach}
+
+\textit{The technical approach and methods, preferably structured in hypothesis-driven tasks that clearly identify how the objectives of the proposed project will be addressed. This section should be the primary focus of the pre-proposal.}
+
+\begin{itemize}
+	
+	\item improve ground-based system
+	\begin{itemize}
+		\item improve code to minimize false positive s and false negatives
+		\item evaluate performance using standard metrics
+		\item provide technical documentation
+		\item provide user manual
+		\item develop and test a cell phone app which does real-time object detection. This can be done by embedding the two object detectors in the app. This app would work in much the same way as a license plate reader: sending out an alert whenever CRB damage is detected. Images to be saved for eventual upload and further analysis. IF THIS APP IS MADE AVAILABLE PUBLICLY, IT COULD BE USED FOR CROWD SOURCED DATA SIMILAR TO INAT.
+	\end{itemize}
+	
+	\item develop aerial-based system
+	\begin{itemize}
+		\item train object detectors to detect CRB damage from aerial images using the existing VDC orthomosaic
+		\item evaluate performance using standard metrics
+		\item provide technical documentation
+		\item provide user manual
+	\end{itemize}
+	
+	\item operational testing
+	\begin{itemize}
+		\item initial operational testing of the ground-based system during routine island-wide CRB damage surveys on Guam
+		\item initial operational testing of the aerial-based system using new imagery from VDC
+		\item remote operational testing on Majuro: ground-based system for roadside survey; aerial-based survey for islets in the northern part of the atoll
+		\item detection survey on Kiribati using both ground-based and aerial-based methods		
+	\end{itemize}
+	
+\end{itemize}
+
+
+
+
+
+\section{Schedule}
+\textit{The duration of the project, along with a milestone chart that delineates the
+timeline for each task and major deliverables.}
+
+\section{Cost}
+
+\textit{The estimated total costs, including labor, materials, travel, burdens, and profit
+(fixed fee, if any, for eligible organizations) by year. A detailed breakout of costs is not
+required or desired in the pre-proposal.}
+
+\section{Research Team}
+
+\textit{Identify the Principal Investigator(s), the key co-performers, and
+their respective organizations. If multiple co-performers are proposed, indicate their
+responsibilities within the project.}
+
+\end{document}
