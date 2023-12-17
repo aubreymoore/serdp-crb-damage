@@ -1,0 +1,125 @@
+cost_item,cost_type,institution,year,qty_or_fte,unit_cost,units
+Vehicle lease (incl.fuel and maintenance),materials,CEMML,1,12,1200,$/month
+CEMML Field Admin Support,labor,CEMML,1,0.2,90540,$/year (inc. benefits)
+CEMML survey tech 1,labor,CEMML,1,1,60360,$/year (inc. benefits)
+CEMML survey tech 2,labor,CEMML,1,1,60360,$/year (inc. benefits)
+CEMML entomologist,labor,CEMML,1,0.05,135810,$/year (inc. benefits)
+Panel traps,materials,UOG,1,1500,40,$/each
+Pheromone lures,materials,UOG,1,7800,3.75,$/each
+Vehicle maintenance,materials,UOG,1,1,2000,$/per year
+Vehicle fuel,materials,UOG,1,1,2000,$/per year
+UOG lab tech 1,labor,UOG,1,1,60360,$/per year (inc. benefits)
+UOG lab tech 2,labor,UOG,1,1,60360,$/per year (inc. benefits)
+UOG survey tech 1,labor,UOG,1,1,60360,$/per year (inc. benefits)
+UOG survey tech 2,labor,UOG,1,1,60360,$/per year (inc. benefits)
+UOG Field Ops Mgr,labor,UOG,1,0.5,95680,$/per year (inc. benefits)
+UOG entomologist,labor,UOG,1,0.05,130000,$/per year (inc. benefits)
+UOG insect pathologist,labor,UOG,1,1,83200,$/per year (inc. benefits)
+Office Materials and Supplies,materials,CEMML,1,1,1500,$/year
+Field Materials and Supplies,materials,CEMML,1,1,5000,$/year
+cell phone service for 3 technicians,materials,CEMML,1,1,1440,$/year
+vehicle lincensing,materials,CEMML,1,1,1362,$/year
+electrical service,materials,CEMML,1,1,2400,$/year
+building rental,rent,CEMML,1,1,12000,$/year
+Off-island travel (Denver and Tinian),travel,CEMML,1,1,11817,$/year
+Laptop computers,materials,CEMML,1,1,2000,$/each
+Laptop computers,materials,CEMML,2,1,2000,$/each
+GPS Unit,materials,CEMML,1,1,1000,$/each
+rent,rent,NCSU,1,1,1000,$/per year
+Panel traps,materials,UOG,2,500,40,$/each
+Pheromone lures,materials,UOG,2,7800,3.75,$/each
+Vehicle maintenance,materials,UOG,2,1,2000,$/per year
+Vehicle fuel,materials,UOG,2,1,2000,$/per year
+P.I.,labor,NCSU,2,0.05,75265,$/per year
+UOG lab tech 1,labor,UOG,2,1,62170,$/per year (inc. benefits)
+UOG lab tech 2,labor,UOG,2,1,62170,$/per year (inc. benefits)
+UOG survey tech 1,labor,UOG,2,1,62170,$/per year (inc. benefits)
+UOG survey tech 2,labor,UOG,2,1,62170,$/per year (inc. benefits)
+UOG Field Ops Mgr,labor,UOG,2,0.5,98550,$/per year (inc. benefits)
+UOG entomologist,labor,UOG,2,0.1,133900,$/per year (inc. benefits)
+UOG insect pathologist,labor,UOG,2,1,85696,$/per year (inc. benefits)
+SME,labor,NCSU,2,0.48,75920,$/per year
+rent,rent,NCSU,2,1,1000,$/per year
+Panel traps,materials,UOG,3,500,40,$/each
+Pheromone lures,materials,UOG,3,7800,3.75,$/each
+Vehicle maintenance,materials,UOG,3,1,2000,$/per year
+Vehicle fuel,materials,UOG,3,1,2000,$/per year
+P.I.,labor,NCSU,3,0.05,75265,$/per year
+UOG lab tech 1,labor,UOG,3,1,64035,$/per year (inc. benefits)
+UOG lab tech 2,labor,UOG,3,1,64035,$/per year (inc. benefits)
+UOG survey tech 1,labor,UOG,3,1,64035,$/per year (inc. benefits)
+UOG survey tech 2,labor,UOG,3,1,64035,$/per year (inc. benefits)
+UOG Field Ops Mgr,labor,UOG,3,0.5,101507,$/per year (inc. benefits)
+UOG entomologist,labor,UOG,3,0.1,137917,$/per year (inc. benefits)
+UOG insect pathologist,labor,UOG,3,1,88267,$/per year (inc. benefits)
+SME,labor,NCSU,3,0.38,75920,$/per year
+rent,rent,NCSU,3,1,1000,$/per year
+Panel traps,materials,UOG,4,500,40,$/each
+Pheromone lures,materials,UOG,4,7800,3.75,$/each
+Vehicle maintenance,materials,UOG,4,1,2000,$/per year
+Vehicle fuel,materials,UOG,4,1,2000,$/per year
+P.I.,labor,NCSU,4,0.05,75265,$/per year
+UOG lab tech 1,labor,UOG,4,0.95,65957,$/per year (inc. benefits)
+UOG lab tech 2,labor,UOG,4,0.95,65957,$/per year (inc. benefits)
+UOG survey tech 1,labor,UOG,4,0.95,65957,$/per year (inc. benefits)
+UOG survey tech 2,labor,UOG,4,0.95,65957,$/per year (inc. benefits)
+UOG Field Ops Mgr,labor,UOG,4,0.5,104552,$/per year (inc. benefits)
+UOG entomologist,labor,UOG,4,0.1,142055,$/per year (inc. benefits)
+UOG insect pathologist,labor,UOG,4,1,90915,$/per year (inc. benefits)
+SME,labor,NCSU,4,0.47,75920,$/per year
+rent,rent,NCSU,4,1,1000,$/per year
+Vehicle lease (incl.fuel and maintenance),materials,CEMML,2,12,1200,$/month
+CEMML Field Admin Support,labor,CEMML,2,0.2,93256,$/year (inc. benefits)
+CEMML survey tech 1,labor,CEMML,2,1,62170,$/year (inc. benefits)
+CEMML survey tech 2,labor,CEMML,2,1,62170,$/year (inc. benefits)
+CEMML entomologist,labor,CEMML,2,0.05,139884,$/year (inc. benefits)
+Office Materials and Supplies,materials,CEMML,2,1,1500,$/year
+Field Materials and Supplies,materials,CEMML,2,1,5000,$/year
+cell phone service for 3 technicians,materials,CEMML,2,1,1440,$/year
+vehicle lincensing,materials,CEMML,2,1,1362,$/year
+electrical service,materials,CEMML,2,1,2400,$/year
+building rental,rent,CEMML,2,1,12000,$/year
+Vehicle lease (incl.fuel and maintenance),materials,CEMML,3,12,1200,$/month
+CEMML Field Admin Support,labor,CEMML,3,0.2,96053,$/year (inc. benefits)
+CEMML survey tech 1,labor,CEMML,3,1,64035,$/year (inc. benefits)
+CEMML survey tech 2,labor,CEMML,3,1,64035,$/year (inc. benefits)
+CEMML entomologist,labor,CEMML,3,0.05,144081,$/year (inc. benefits)
+Office Materials and Supplies,materials,CEMML,3,1,1500,$/year
+Field Materials and Supplies,materials,CEMML,3,1,5000,$/year
+cell phone service for 3 technicians,materials,CEMML,3,1,1440,$/year
+vehicle lincensing,materials,CEMML,3,1,1362,$/year
+electrical service,materials,CEMML,3,1,2400,$/year
+building rental,rent,CEMML,3,1,12000,$/year
+Vehicle lease (incl.fuel and maintenance),materials,CEMML,4,12,1200,$/month
+CEMML Field Admin Support,labor,CEMML,4,0.2,98935,$/year (inc. benefits)
+CEMML survey tech 1,labor,CEMML,4,1,65857,$/year (inc. benefits)
+CEMML survey tech 2,labor,CEMML,4,1,65857,$/year (inc. benefits)
+CEMML entomologist,labor,CEMML,4,0.05,148403,$/year (inc. benefits)
+Office Materials and Supplies,materials,CEMML,4,1,1500,$/year
+Field Materials and Supplies,materials,CEMML,4,1,5000,$/year
+cell phone service for 3 technicians,materials,CEMML,4,1,1440,$/year
+vehicle lincensing,materials,CEMML,4,1,1362,$/year
+electrical service,materials,CEMML,4,1,2400,$/year
+building rental,rent,CEMML,4,1,12000,$/year
+Lab and insect rearing supplies,materials,UOG,1,1,3000,$/per year
+Lab and insect rearing supplies,materials,UOG,2,1,3000,$/per year
+Lab and insect rearing supplies,materials,UOG,3,1,3000,$/per year
+Lab and insect rearing supplies,materials,UOG,4,1,3000,$/per year
+SME,labor,NCSU,1,0.35,75920,$/year
+P.I.,labor,NCSU,1,0.05,75265,$/year
+SME fringe benefits,labor,NCSU,1,1,2285,$/year
+P.I. fringe benefits,labor,NCSU,1,1,1339,$/year
+Domestic travel,travel,NCSU,1,1,18500,$/year
+International travel,travel,NCSU,1,1,18500,$/year
+SME fringe benefits,labor,NCSU,2,1,3134,$/per year
+Domestic travel,travel,NCSU,2,1,25000,$/per year
+International travel,travel,NCSU,2,1,25000,$/per year
+P.I. fringe benefits,labor,NCSU,2,1,1339,$/per year
+SME fringe benefits,labor,NCSU,3,1,2481,$/per year
+P.I. fringe benefits,labor,NCSU,3,1,1339,$/per year
+Domestic travel,travel,NCSU,3,1,25000,$/per year
+International travel,travel,NCSU,3,1,25000,$/per year
+P.I. fringe benefits,labor,NCSU,4,1,1339,$/per year
+SME fringe benefits,labor,NCSU,4,1,3069,$/per year
+Domestic travel,travel,NCSU,4,1,18000,$/per year
+International travel,travel,NCSU,4,1,18000,$/per year

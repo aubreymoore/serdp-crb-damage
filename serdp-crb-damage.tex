@@ -142,6 +142,89 @@ We will improve the existing ground-based system and adapt this system to use ae
 \textit{The duration of the project, along with a milestone chart that delineates the
 timeline for each task and major deliverables.}
 
+\begin{figure}[h!]
+	%\centering
+	\begin{tikzpicture}
+		\begin{ganttchart}[x unit=0.08in, 
+			y unit chart=0.18in,
+			group label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+			bar label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+			milestone label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+			bar/.append style={fill=lightgray}
+			]{1}{48}
+			
+			\gantttitle{Year}{48} \\
+			\gantttitlelist{1,...,4}{12} \\
+			
+			\ganttgroup{Biocontrol}{1}{48} \\
+			\ganttbar{Continued screening for OrNV biocontrol candidates}{1}{12} \\	
+			\ganttbar{In vivo virus propagation}{1}{36} \\
+			\ganttbar{OrNV release by autodissemination}{4}{36} \\
+			\ganttbar{Sample pheromone trap catch for OrNV}{1}{48} \\
+			\ganttbar{Establishment of CRB-G and CRB-S lab colonies}{1}{12} \\
+			\ganttbar{Maintain lab colonies}{13}{48} \\
+			\ganttbar{Experiments to compare CRB-G and CRB-S}{13}{24} \\
+			\ganttmilestone{Decide which OrNV isolate(s) to release}{1} \\
+			\ganttmilestone{Initiate OrNV release}{4} \\
+			\ganttmilestone{Review choice of OrNV isolate(s) for release}{13} \\	
+			\ganttmilestone{Annual reports}{13}
+			\ganttmilestone{}{25}
+			\ganttmilestone{}{36}
+			\ganttmilestone{}{48} \\
+			
+			\ganttgroup{Pheromone trap and video surveys}{1}{48} \\
+			\ganttbar{Pre-release surveys}{1}{3} \\
+			\ganttbar{Post-release surveys}{4}{48} \\
+			\ganttmilestone{Quarterly survey reports}{4}
+			\ganttmilestone{}{7}
+			\ganttmilestone{}{10}
+			\ganttmilestone{}{13}
+			\ganttmilestone{}{16}
+			\ganttmilestone{}{19}
+			\ganttmilestone{}{22}
+			\ganttmilestone{}{25}
+			\ganttmilestone{}{28}
+			\ganttmilestone{}{31}
+			\ganttmilestone{}{34}
+			\ganttmilestone{}{37}
+			\ganttmilestone{}{40}
+			\ganttmilestone{}{43}
+			\ganttmilestone{}{46} \\
+			
+			\ganttgroup{Coordination and collaboration}{1}{48} \\
+			\ganttmilestone{Quarterly teleconferences}{3}
+			\ganttmilestone{}{6}
+			\ganttmilestone{}{9}
+			\ganttmilestone{}{12}
+			\ganttmilestone{}{15}
+			\ganttmilestone{}{18}
+			\ganttmilestone{}{21}
+			\ganttmilestone{}{24}
+			\ganttmilestone{}{27}
+			\ganttmilestone{}{30}
+			\ganttmilestone{}{33}
+			\ganttmilestone{}{36}
+			\ganttmilestone{}{39}
+			\ganttmilestone{}{42}
+			\ganttmilestone{}{45}
+			\ganttmilestone{}{48} \\
+			\ganttmilestone{Annual conferences}{7}
+			\ganttmilestone{}{19}
+			\ganttmilestone{}{31}
+			\ganttmilestone{}{43} \\
+			
+			\ganttlink{elem2}{elem3}
+			\ganttlink{elem5}{elem6}
+			\ganttlink{elem6}{elem7}
+			\ganttlink{elem16}{elem17}
+			
+		\end{ganttchart}	
+	\end{tikzpicture}
+	\caption{Project schedule.} 
+	\label{fig:gantt}
+\end{figure}
+
+
 \section{Cost}
 
 \textit{The estimated total costs, including labor, materials, travel, burdens, and profit

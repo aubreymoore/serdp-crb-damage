@@ -1,0 +1,30 @@
+\babel@toc {english}{}
+\contentsline {section}{\numberline {1}Objective}{2}{section.1}%
+\contentsline {section}{\numberline {2}Background}{2}{section.2}%
+\contentsline {section}{\numberline {3}Approach}{2}{section.3}%
+\contentsline {section}{\numberline {4}Schedule}{3}{section.4}%
+\contentsline {section}{\numberline {5}Cost}{3}{section.5}%
+\contentsline {section}{\numberline {6}Research Team}{3}{section.6}%
+\contentsline {section}{\numberline {A}Abbreviated Curriculum Vitae}{6}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Dr. Godshen R. Pallipparambil}{6}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Dr. Aubrey Moore}{8}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Dr. Kenneth Puliafico}{10}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Dr. James Grasela}{12}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Roland Quitugua}{12}{subsection.A.5}%
+\contentsline {section}{\numberline {B}List of Acronyms}{12}{appendix.B}%
+\contentsline {section}{\numberline {C}Literature Citations}{13}{appendix.C}%
+\contentsline {section}{\numberline {D}Cost Breakdown Narrative}{14}{appendix.D}%
+\contentsline {subsection}{\numberline {D.1}CEMML}{14}{subsection.D.1}%
+\contentsline {subsubsection}{\numberline {D.1.1}Labor}{14}{subsubsection.D.1.1}%
+\contentsline {subsubsection}{\numberline {D.1.2}Materials}{14}{subsubsection.D.1.2}%
+\contentsline {subsection}{\numberline {D.2}Rent}{14}{subsection.D.2}%
+\contentsline {subsubsection}{\numberline {D.2.1}Travel}{14}{subsubsection.D.2.1}%
+\contentsline {subsection}{\numberline {D.3}NCSU}{18}{subsection.D.3}%
+\contentsline {subsubsection}{\numberline {D.3.1}Staffing}{18}{subsubsection.D.3.1}%
+\contentsline {subsubsection}{\numberline {D.3.2}Indirect costs for NC State}{18}{subsubsection.D.3.2}%
+\contentsline {subsubsection}{\numberline {D.3.3}Rent}{18}{subsubsection.D.3.3}%
+\contentsline {subsection}{\numberline {D.4}UOG}{20}{subsection.D.4}%
+\contentsline {subsubsection}{\numberline {D.4.1}Labor}{20}{subsubsection.D.4.1}%
+\contentsline {subsubsection}{\numberline {D.4.2}Materials}{20}{subsubsection.D.4.2}%
+\contentsline {section}{\numberline {E}Supporting Technical Data}{23}{appendix.E}%
+\contentsline {section}{\numberline {F}Existing Support}{24}{appendix.F}%
