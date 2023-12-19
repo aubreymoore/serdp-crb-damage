@@ -1,10 +1,10 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Objective}{2}{section.1}%
 \contentsline {section}{\numberline {2}Background}{2}{section.2}%
-\contentsline {section}{\numberline {3}Approach}{2}{section.3}%
+\contentsline {section}{\numberline {3}Approach}{3}{section.3}%
 \contentsline {section}{\numberline {4}Schedule}{3}{section.4}%
-\contentsline {section}{\numberline {5}Cost}{3}{section.5}%
-\contentsline {section}{\numberline {6}Research Team}{3}{section.6}%
+\contentsline {section}{\numberline {5}Cost}{4}{section.5}%
+\contentsline {section}{\numberline {6}Research Team}{5}{section.6}%
 \contentsline {section}{\numberline {A}Abbreviated Curriculum Vitae}{6}{appendix.A}%
 \contentsline {subsection}{\numberline {A.1}Roland Quitugua}{6}{subsection.A.1}%
 \contentsline {subsection}{\numberline {A.2}Dr. Aubrey Moore}{6}{subsection.A.2}%
