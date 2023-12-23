@@ -1,19 +1,28 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Objective}{2}{section.1}%
 \contentsline {section}{\numberline {2}Background}{2}{section.2}%
-\contentsline {section}{\numberline {3}Approach}{3}{section.3}%
-\contentsline {section}{\numberline {4}Schedule}{3}{section.4}%
-\contentsline {section}{\numberline {5}Cost}{4}{section.5}%
-\contentsline {section}{\numberline {6}Research Team}{5}{section.6}%
-\contentsline {section}{\numberline {A}Abbreviated Curriculum Vitae}{6}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Roland Quitugua}{6}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Dr. Aubrey Moore}{6}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Dr. Romina King}{8}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}Dr. Kenneth Puliafico}{8}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}Dr. Mark Ero}{10}{subsection.A.5}%
-\contentsline {subsection}{\numberline {A.6}Dr. Sulav Paudel}{10}{subsection.A.6}%
-\contentsline {subsection}{\numberline {A.7}Dr. Sean Marshall}{10}{subsection.A.7}%
-\contentsline {section}{\numberline {B}List of Acronyms}{10}{appendix.B}%
-\contentsline {section}{\numberline {C}Literature Citations}{11}{appendix.C}%
-\contentsline {section}{\numberline {D}Supporting Technical Data}{11}{appendix.D}%
-\contentsline {section}{\numberline {E}Existing Support}{11}{appendix.E}%
+\contentsline {subsection}{\numberline {2.1}CRB damage survey methods}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Automation of CRB damage surveys}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Images of CRB damage on the world-wide-web}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Previous work on automated CRB damage surveys}{3}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Approach}{4}{section.3}%
+\contentsline {paragraph}{\nonumberline Design considerations.}{4}{section*.4}%
+\contentsline {paragraph}{\nonumberline Object detectors.}{4}{section*.5}%
+\contentsline {paragraph}{\nonumberline Roadside surveys.}{4}{section*.6}%
+\contentsline {paragraph}{\nonumberline Aerial drone surveys.}{4}{section*.7}%
+\contentsline {paragraph}{\nonumberline World wide web surveys.}{4}{section*.8}%
+\contentsline {section}{\numberline {4}Schedule}{5}{section.4}%
+\contentsline {section}{\numberline {5}Cost}{6}{section.5}%
+\contentsline {section}{\numberline {6}Research Team}{6}{section.6}%
+\contentsline {section}{\numberline {A}Abbreviated Curriculum Vitae}{7}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Roland Quitugua}{7}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Dr. Aubrey Moore}{7}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Dr. Romina King}{9}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Dr. Kenneth Puliafico}{9}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Dr. Mark Ero}{11}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}Dr. Sulav Paudel}{11}{subsection.A.6}%
+\contentsline {subsection}{\numberline {A.7}Dr. Sean Marshall}{11}{subsection.A.7}%
+\contentsline {section}{\numberline {B}List of Acronyms}{11}{appendix.B}%
+\contentsline {section}{\numberline {C}Literature Citations}{12}{appendix.C}%
+\contentsline {section}{\numberline {D}Supporting Technical Data}{12}{appendix.D}%
+\contentsline {section}{\numberline {E}Existing Support}{12}{appendix.E}%
