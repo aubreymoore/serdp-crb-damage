@@ -78,6 +78,12 @@ not less than one inch on all sides.}
 
 \end{description}
 
+\todo[inline]{Compare cost of roadside surveys with pheromone trapping.}
+\todo[inline]{Data from aerial surveys can be used for precise pesticide application.}
+\todo[inline]{Standardization}
+\todo[inline]{Infestation of Majuro puts Kwajelein at risk}
+\todo[inline]{eDNA}
+
 \section{Objective}
 
 \textit{The proposed objectives and how the project is responsive to the objectives
@@ -86,19 +92,18 @@ not less than one inch on all sides.}
 Our objective is to develop an automated remote sensing system that detects, quantifies and monitors coconut rhinoceros beetle (CRB) damage on isolated Pacific islands using artificial intelligence (AI) to scan georeferenced digital images. This system will use images acquired from several sources, including roadside surveys, aerial drone surveys and the worldwide web.
 
 This proposal addresses the statement of need (SON) entitled \textit{Advancing Non-Indigenous Invasive Species Surveillance, Mitigation, or Biosecurity Measures Affecting Military Readiness in the Indo-Pacific Region}. The objective of this SON "is to solicit proposals that develop and mature the science to detect, survey, mitigate, characterize impacts, and minimize the establishment or spread of invasive species in the Indo-Pacific region".
-
-\todo[inline]{Show how the project is responsive to the objectives
-	articulated in the SON}
+	
+Our goal is to provide a flexible toolkit of standardized, cost-effective CRB surveillance methods which can be used on any Pacific island for CRB surveillance to provide early detection, delimitation of new populations, and routine monitoring as part of eradication and control programs.
 
 \section{Background}
 
 \textit{Sufficient technical background to demonstrate a thorough understanding of the problem and frame the proposed research in the context of the current state of the science or technology.}\\
 
-Coconut rhinoceros beetle (CRB), \textit{Oryctes rhinoceros}, is one of the most problematic invasive species in the Indo-Pacific region. This beetle is endemic to the tropical Asia region (including South East Asia). CRB damages both coconut and oil palm, and can sometimes kill palms when adults bore into crowns to feed on sap \cite{Bedford2013} (Bedford, 2013a, 2013b). The beetle was inadvertently introduced into the Pacific in 1909 when infested rubber tree plants were transported to Samoa from Sri Lanka (previously known as Ceylon) (Catley, 1969). The pest rapidly multiplied in Samoa and subsequently spread to several nearby Polynesian islands. Separate invasions further distributed CRB through Palau, parts of Papua New Guinea, and other Pacific nations through disruptions and uncontrolled movements during World War II (Catley, 1969; Gressitt, 1953). The invasive phase of the beetle was brought under control by the discovery and distribution of a viral biocontrol agent, \textit{Oryctes rhinoceros} nudivirus (OrNV). OrNV is currently present and causes persistent population suppression on many of the CRB infested Pacific Islands (Bedford, 2013b; Huger, 2005). Virus introduction into affected Pacific Island countries and territories suppressed and weakened the CRB populations such that its spread into the Pacific islands ceased and for 30 years there was no further range expansion of CRB (Secretariat of the Pacific Community, 2015). 
+Coconut rhinoceros beetle (CRB), \textit{Oryctes rhinoceros}, is one of the most problematic invasive species in the Indo-Pacific region. This beetle is endemic to the tropical Asia region (including South East Asia). CRB damages both coconut and oil palm, and is capable of killing palms when adults bore into crowns to feed on sap \cite{Bedford2013} (Bedford, 2013a, 2013b). The beetle was inadvertently introduced into the Pacific in 1909 when infested rubber tree plants were transported to Samoa from Sri Lanka (previously known as Ceylon) (Catley, 1969). The pest rapidly multiplied in Samoa and subsequently spread to several nearby Polynesian islands. Separate invasions further distributed CRB through Palau, parts of Papua New Guinea, and other Pacific nations through disruptions and uncontrolled movements during World War II (Catley, 1969; Gressitt, 1953). The invasive phase of the beetle was brought under control by the discovery and distribution of a viral biocontrol agent, \textit{Oryctes rhinoceros} nudivirus (OrNV). OrNV is currently present and causes persistent population suppression on many of the CRB infested Pacific Islands (Bedford, 2013b; Huger, 2005). Virus introduction into affected Pacific Island countries and territories suppressed and weakened the CRB populations such that its spread into the Pacific islands ceased and for 30 years there was no further range expansion of CRB (Secretariat of the Pacific Community, 2015). 
 
 \todo[inline]{replace following with table}
 
-However, the situation changed following discovery of an OrNV resistant CRB population on Guam in 2007 \cite{Marshall2017}. Since 2007, CRB has invaded the Hawaiian Islands ( (Oahu in 2013, Kauai in 2023, Big Island in 2023), Commonwealth of the Northern Mariana Islands (Rota ????), Republic of the Marshall Papua New Guinea (Port Morseby area in ????), Solomon Islands (Guadalcanal in ????, Savo in ????, Malaita in ????; and Rota (Commonwealth of the Northern Mariana Islands). Beetles in the third wave of invasions are genetically different from those in the earlier waves and these are being referred to as the Guam biotype or CRB-G.
+However, the situation changed following invasion of Guam by CRB in 2007 by an OrNV resistant biotype \cite{Marshall2017}. Since 2007, CRB has invaded the Hawaiian Islands ( (Oahu in 2013, Kauai in 2023, Big Island in 2023), Commonwealth of the Northern Mariana Islands (Rota ????), Republic of the Marshall Papua New Guinea (Port Morseby area in ????), Solomon Islands (Guadalcanal in ????, Savo in ????, Malaita in ????; and Rota (Commonwealth of the Northern Mariana Islands). Beetles in the third wave of invasions are genetically different from those in the earlier waves and these are being referred to as the Guam biotype or CRB-G.
 
 
 
@@ -108,7 +113,7 @@ However, the situation changed following discovery of an OrNV resistant CRB popu
 
 V-shaped cuts to palm fronds (Fig.\ref{fig:vcuts}) and other symptoms of CRB adult feeding activity are highly distinctive and visible from up to a few hundred meters.
 
-A review of CRB damage survey methods is provided by \cite{Mansfield2023}. Recent surveys almost always use georeferenced digital images. Severity of damage to palms in these images is later classified by human experts using a standardized 3-level scale (undamaged, damaged, dead) or a 5-level scale (undamaged, low damage, medium damage, high damage, dead). Results are then displayed on a map. 
+A review of CRB damage survey methods is provided by Mansfield et al. 2023 \cite{Mansfield2023}. Originally, surveyors recorded direct visual observations but recent surveys almost always use georeferenced digital images. Severity of damage to palms in these images is later classified by human experts using a standardized 3-level scale (undamaged, damaged, dead) or a 5-level scale (undamaged, low damage, medium damage, high damage, dead). Results are then displayed on maps. 
 
 \subsection{Automation of CRB damage surveys}
 
@@ -146,7 +151,7 @@ We will improve the existing ground-based system and adapt this system to use ae
 
 \textit{The technical approach and methods, preferably structured in hypothesis-driven tasks that clearly identify how the objectives of the proposed project will be addressed. This section should be the primary focus of the pre-proposal.}
 
-\paragraph{Design considerations.} All code will be developed using free open-source software (FOSS) and all code, data and documentation generated by the project will be made available via public GitHub repositories.
+\paragraph{Design features.} All code will be developed using free open-source software (FOSS) and all code, data and documentation generated by the project will be made available via public GitHub repositories. Methods will be designed to be appropriate for use on Pacific islands which have  limited technical and financial resources.
 
 \paragraph{Object detectors.} Existing object detectors, which have been used in roadside CRB damage surveys on Guam since 2020, will be retrained to minimize false positives and false negatives. Performance before and after retraining will be evaluated using standard metrics and reported in a technical report. A user manual for the object detectors will be provided. 
 
@@ -425,8 +430,12 @@ COMING SOON.
 
 \bibitem{Bedford2013} Bedford, G. O.(2013). Long-term reduction in damage by rhinoceros beetle \textit{Oryctes rhinoceros} (L.) (Coleoptera: Scarabaeidae: Dynastinae) to coconut palms at \textit{Oryctes} nudivirus release sites on Viti Levu, Fiji. African J Agricultural Research. 8(49):6422-5. 
 
-\bibitem{Marshall2017} Marshall SDG, Moore A, Vaqalo M, Noble A, Jackson TA (2017). A new haplotype of the coconut rhinoceros beetle, \textit{Oryctes rhinoceros}, has escaped biological control by Oryctes rhinoceros nudivirus and is invading Pacific Islands. Journal of Invertebrate Pathology 149:127-34. 
+\bibitem{Marshall2017} Marshall SDG, Moore A, Vaqalo M, Noble A, Jackson TA (2017). A new haplotype of the coconut rhinoceros beetle, \textit{Oryctes rhinoceros}, has escaped biological control by \textit{Oryctes rhinoceros} nudivirus and is invading Pacific Islands. Journal of Invertebrate Pathology 149:127-34. 
 \url{ http://www.sciencedirect.com/science/article/pii/S0022201117300289}
+
+\bibitem{SERDP2021} SERDP (2021) A Terrestrial Environmental DNA Survey for Coconut Rhinoceros Beetle Surveillance and Mitigation
+\url{https://demo.serdp-estcp.mil/projects/details/7f27cd20-f1bc-4ae2-a46a-c8b8d0f30c11/rc21-1137-project-overview}
+	
 
 %\bibitem{Pallipparambil2015} Pallipparambil G. (2015). New Pest Response Guidelines: Oryctes rhinoceros (L.) Coleoptera:Scarabaeidae Coconut Rhinoceros Beetle [Internet]. United States Department of Agriculture - Animal and Plant Health Inspection Service - Plant Protection and Quarantine; 2015 p. 180.
 
@@ -622,9 +631,31 @@ COMING SOON.
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{images/crb-mexico}
-	\caption{Coconut palm in Mexico with CRB damage symptoms. This image was selected by an automated search of web images using an object detector developed for CRB damage monitoring on Guam. Image source: \url{https://www.inaturalist.org/observations/76810823}.}	
+	\caption{Coconut palm in Mexico with CRB damage symptoms. This image was discovered by an automated search of web images using an object detector developed for CRB damage monitoring on Guam. Image source: \url{https://www.inaturalist.org/observations/76810823}.}	
 	\label{fig:crb-mexico}
 \end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{images/impact-report08.png}
+	\caption{Feature article in the University of Guam's Western Pacific Tropical Research Center impact report for 2020.}
+	\label{fig:roadside1-2}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\linewidth]{images/crb-webmap-2020-12.png}
+	\caption{Screenshot of an \href{https://aubreymoore.github.io/Guam-CRB-damage-map-2020-12/webmap/v1}{interactive web map} showing results from a roadside video survey of	CRB damage on Guam in December 2020.}
+	\label{fig:guam02}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{images/majuro-webmap}
+	\caption{Screenshot of an \href{https://aubreymoore.github.io/Majuro-CRB-damage-map-1/webmap}{interactive web map} showing results of a CRB roadside survey on Majuro. 13,488 roadside images were taken during a 4 hours islandwide survey. Only 3 images contained v-shaped cuts. As indicated by the green circle, these images were in a very tight cluster located just east of the airport.}
+	\label{fig:majuro-webmap}
+\end{figure}
+
 
 
 %\begin{figure}[h]
