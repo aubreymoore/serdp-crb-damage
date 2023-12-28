@@ -1,28 +1,29 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Objective}{2}{section.1}%
 \contentsline {section}{\numberline {2}Background}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}CRB damage survey methods}{3}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Automation of CRB damage surveys}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Images of CRB damage on the world-wide-web}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Previous work on automated CRB damage surveys}{3}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.1}Invasion history of CRB in the Pacific}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}CRB damage survey methods}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Automation of CRB damage surveys}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Images of CRB damage on the world-wide-web}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Previous work on automated CRB damage surveys}{4}{subsection.2.5}%
 \contentsline {section}{\numberline {3}Approach}{4}{section.3}%
 \contentsline {paragraph}{\nonumberline Design features.}{4}{section*.8}%
 \contentsline {paragraph}{\nonumberline Object detectors.}{4}{section*.9}%
-\contentsline {paragraph}{\nonumberline Roadside surveys.}{4}{section*.10}%
-\contentsline {paragraph}{\nonumberline Aerial drone surveys.}{4}{section*.11}%
-\contentsline {paragraph}{\nonumberline World wide web surveys.}{4}{section*.12}%
-\contentsline {section}{\numberline {4}Schedule}{5}{section.4}%
-\contentsline {section}{\numberline {5}Cost}{6}{section.5}%
-\contentsline {section}{\numberline {6}Research Team}{6}{section.6}%
-\contentsline {section}{\numberline {A}Abbreviated Curriculum Vitae}{7}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Roland Quitugua}{7}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Dr. Aubrey Moore}{7}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Dr. Romina King}{9}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}Dr. Kenneth Puliafico}{9}{subsection.A.4}%
-\contentsline {subsection}{\numberline {A.5}Dr. Mark Ero}{11}{subsection.A.5}%
-\contentsline {subsection}{\numberline {A.6}Dr. Sulav Paudel}{11}{subsection.A.6}%
-\contentsline {subsection}{\numberline {A.7}Dr. Sean Marshall}{11}{subsection.A.7}%
-\contentsline {section}{\numberline {B}List of Acronyms}{12}{appendix.B}%
-\contentsline {section}{\numberline {C}Literature Citations}{13}{appendix.C}%
-\contentsline {section}{\numberline {D}Supporting Technical Data}{14}{appendix.D}%
-\contentsline {section}{\numberline {E}Existing Support}{17}{appendix.E}%
+\contentsline {paragraph}{\nonumberline Roadside surveys.}{5}{section*.10}%
+\contentsline {paragraph}{\nonumberline Aerial drone surveys.}{5}{section*.11}%
+\contentsline {paragraph}{\nonumberline World wide web surveys.}{5}{section*.12}%
+\contentsline {section}{\numberline {4}Schedule}{6}{section.4}%
+\contentsline {section}{\numberline {5}Cost}{7}{section.5}%
+\contentsline {section}{\numberline {6}Research Team}{7}{section.6}%
+\contentsline {section}{\numberline {A}Abbreviated Curriculum Vitae}{8}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Roland Quitugua}{8}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Dr. Aubrey Moore}{8}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Dr. Romina King}{10}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Dr. Kenneth Puliafico}{10}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Dr. Mark Ero}{12}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}Dr. Sulav Paudel}{12}{subsection.A.6}%
+\contentsline {subsection}{\numberline {A.7}Dr. Sean Marshall}{12}{subsection.A.7}%
+\contentsline {section}{\numberline {B}List of Acronyms}{13}{appendix.B}%
+\contentsline {section}{\numberline {C}Literature Citations}{14}{appendix.C}%
+\contentsline {section}{\numberline {D}Supporting Technical Data}{15}{appendix.D}%
+\contentsline {section}{\numberline {E}Existing Support}{18}{appendix.E}%
