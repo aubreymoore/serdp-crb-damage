@@ -1,45 +1,19 @@
-### Page: 1
-### Page: 2
-### Page: 3
-### Page: 4
-* 200 https://www.inaturalist.org/projects/retired-fa-15-uog-crb-damage-survey
-* 200 https://www.projectnoah.org/missions/182566002
-* 200 https://www.projectnoah.org/missions/182566002
-### Page: 5
-* 200 https://github.com/aubreymoore/crb-vdc
-### Page: 6
-### Page: 7
-### Page: 8
-### Page: 9
-### Page: 10
-### Page: 11
-### Page: 12
-### Page: 13
-* 200 https://doi.org/10.22541/au.165828152.28371110/v1
-* 200 https://doi.org/10.22541/au.165828152.28371110/v1
-* 403 https://doi.org/10.1111/jen.13155
-* 403 https://doi.org/10.1111/jen.13155
-* 403 https://doi.org/10.1080/01140671.2023.2278791
-* 403 https://doi.org/10.1080/01140671.2023.2278791
-* 403  http://www.sciencedirect.com/science/article/pii/S0022201117300289
-* 403  http://www.sciencedirect.com/science/article/pii/S0022201117300289
-* 200 https://demo.serdp-estcp.mil/projects/details/7f27cd20-f1bc-4ae2-a46a-c8b8d0f30c11/rc21-1137-project-overview
-* 200 https://demo.serdp-estcp.mil/projects/details/7f27cd20-f1bc-4ae2-a46a-c8b8d0f30c11/rc21-1137-project-overview
-* 403 https://doi.org/10.1080/04345546909415075
-* 200 https://books.google.com/books?id=OtcZAQAAIAAJ
-* 200 http://westernipm.org/index.cfm/center-projects/signature-programs/invasive-species/coconut-rhinoceros-beetle/pest-alert-coconut-rhino-beetle-final-pdf/
-* 200 http://westernipm.org/index.cfm/center-projects/signature-programs/invasive-species/coconut-rhinoceros-beetle/pest-alert-coconut-rhino-beetle-final-pdf/
-* 200 http://westernipm.org/index.cfm/center-projects/signature-programs/invasive-species/coconut-rhinoceros-beetle/pest-alert-coconut-rhino-beetle-final-pdf/
-* 403 https://www.spc.int/DigitalLibrary/Doc/LRD/Reports/57498_Coconut_rhinoceros_beetle___A_manual_for_control_and_management_of_the_pest_in_Pacific_Island_countries_and_territories.pdf
-* 403 https://www.spc.int/DigitalLibrary/Doc/LRD/Reports/57498_Coconut_rhinoceros_beetle___A_manual_for_control_and_management_of_the_pest_in_Pacific_Island_countries_and_territories.pdf
-* 403 https://www.spc.int/DigitalLibrary/Doc/LRD/Reports/57498_Coconut_rhinoceros_beetle___A_manual_for_control_and_management_of_the_pest_in_Pacific_Island_countries_and_territories.pdf
-* ReadTimeout https://www.fs.usda.gov/foresthealth/docs/fidls/FIDL-191-CoconutRhinocerosBeetle.pdf
-* ReadTimeout https://www.fs.usda.gov/foresthealth/docs/fidls/FIDL-191-CoconutRhinocerosBeetle.pdf
-### Page: 14
-* MissingSchema www.crbhawaii.org.
-* 200 https://www.inaturalist.org/observations/76810823
-### Page: 15
-### Page: 16
-* 200 https://aubreymoore.github.io/Guam-CRB-damage-map-2020-12/webmap/v1
-* 200 https://aubreymoore.github.io/Majuro-CRB-damage-map-1/webmap
-### Page: 17
+status|page|code|url
+----|----|----|----
+OK|4|200|[https://www.inaturalist.org/projects/retired-fa-15-uog-crb-damage-survey](https://www.inaturalist.org/projects/retired-fa-15-uog-crb-damage-survey)
+OK|4|200|[https://www.projectnoah.org/missions/182566002](https://www.projectnoah.org/missions/182566002)
+OK|5|200|[https://github.com/aubreymoore/crb-vdc](https://github.com/aubreymoore/crb-vdc)
+OK|16|200|[https://doi.org/10.22541/au.165828152.28371110/v1](https://doi.org/10.22541/au.165828152.28371110/v1)
+ERROR|16|403|[https://doi.org/10.1111/jen.13155](https://doi.org/10.1111/jen.13155)
+ERROR|16|403|[https://doi.org/10.1080/01140671.2023.2278791](https://doi.org/10.1080/01140671.2023.2278791)
+ERROR|16|403|[ http://www.sciencedirect.com/science/article/pii/S0022201117300289]( http://www.sciencedirect.com/science/article/pii/S0022201117300289)
+OK|16|200|[https://demo.serdp-estcp.mil/projects/details/7f27cd20-f1bc-4ae2-a46a-c8b8d0f30c11/rc21-1137-project-overview](https://demo.serdp-estcp.mil/projects/details/7f27cd20-f1bc-4ae2-a46a-c8b8d0f30c11/rc21-1137-project-overview)
+ERROR|16|403|[https://doi.org/10.1080/04345546909415075](https://doi.org/10.1080/04345546909415075)
+OK|16|200|[https://books.google.com/books?id=OtcZAQAAIAAJ](https://books.google.com/books?id=OtcZAQAAIAAJ)
+OK|16|200|[http://westernipm.org/index.cfm/center-projects/signature-programs/invasive-species/coconut-rhinoceros-beetle/pest-alert-coconut-rhino-beetle-final-pdf/](http://westernipm.org/index.cfm/center-projects/signature-programs/invasive-species/coconut-rhinoceros-beetle/pest-alert-coconut-rhino-beetle-final-pdf/)
+ERROR|16|403|[https://www.spc.int/DigitalLibrary/Doc/LRD/Reports/57498_Coconut_rhinoceros_beetle___A_manual_for_control_and_management_of_the_pest_in_Pacific_Island_countries_and_territories.pdf](https://www.spc.int/DigitalLibrary/Doc/LRD/Reports/57498_Coconut_rhinoceros_beetle___A_manual_for_control_and_management_of_the_pest_in_Pacific_Island_countries_and_territories.pdf)
+ERROR|16|ReadTimeout|[https://www.fs.usda.gov/foresthealth/docs/fidls/FIDL-191-CoconutRhinocerosBeetle.pdf](https://www.fs.usda.gov/foresthealth/docs/fidls/FIDL-191-CoconutRhinocerosBeetle.pdf)
+ERROR|17|MissingSchema|[www.crbhawaii.org.](www.crbhawaii.org.)
+OK|17|200|[https://www.inaturalist.org/observations/76810823](https://www.inaturalist.org/observations/76810823)
+OK|19|200|[https://aubreymoore.github.io/Guam-CRB-damage-map-2020-12/webmap/v1](https://aubreymoore.github.io/Guam-CRB-damage-map-2020-12/webmap/v1)
+OK|19|200|[https://aubreymoore.github.io/Majuro-CRB-damage-map-1/webmap](https://aubreymoore.github.io/Majuro-CRB-damage-map-1/webmap)

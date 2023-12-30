@@ -204,16 +204,15 @@ Our object detectors can process images acquired from any source, including worl
 
 The duration of this project component will be 4 years. The first half of the project will focus on developing, evaluating and documenting survey methods and the second half will focus on field field trials of the methods.
 
-%\begin{figure}[H]
-\centering
+
 \scalebox{0.7}{
 	\begin{tikzpicture}
 	\begin{ganttchart}[expand chart=\textwidth,
 	x unit=0.08in, 
 	y unit chart=0.18in,
-	group label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
-	bar label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
-	milestone label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+	group label node/.style={text width=3in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+	bar label node/.style={text width=3in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
+	milestone label node/.style={text width=3in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
 	bar/.append style={fill=lightgray}
 	]{1}{48}
 	
@@ -263,66 +262,6 @@ The duration of this project component will be 4 years. The first half of the pr
 	\end{ganttchart}	
 	\end{tikzpicture}
 }
-%	\caption{Project schedule.} 
-%	\label{fig:gantt}
-%\end{figure}
-
-
-
-
-%\textit{The duration of the project, along with a milestone chart that delineates the timeline for each task and major deliverables.}
-
-
-%\begin{figure}[h]
-%	\includegraphics[width=\textwidth]{ProjectLibre/gantt.png}
-%	\caption{Project schedule. This screenshot is a placeholder. Will be replaced with the real thing.}
-%\end{figure} 
-
-
-\begin{comment}
-
-Major benchmarks are:
-
-\begin{enumerate}
-	\item \textbf{Discovery of an OrNV isolate which can be used as an effective biological control agent for CRB-G.} Candidate isolates will be evaluated in laboratory bioassays.
-	\item \textbf{Release of OrNV into populations by autodissemination.} Laboratory facilities will be established to produce selected OrNV isolates \textit{in vivo} and/or \textit{in vitro}. 
-	\item \textbf{Establishment of self sustaining biological control which prevents significant damage from CRB-G on an island-wide basis} Progress towards this goal will be assessed by a periodic damage monitoring survey will be established prior to release of biocontrol agents. 
-\end{enumerate}
-
-	
-From PPA20:
-
-Milestones:
-
-Objective 1:  Establish Sustainable CRB-G Biocontrol by Autodissemination of OrNV
-
-Month 1,2,3,4,5,6: Introduce OrNV biological control candidates into the Guam CRB-G population by autodissemination.
-
-Month 2: Establish a breeding colony for CRB-G and CRB-S.
-
-Month 3,4,5,6: Perform laboratory bioassays to measure differences in responses to OrNV by CRB-G and CRB-S. In addition to mortality, we will measure differences in oviposition and flight capacity.
-
-Month 7, 8: Perform y-tube olfactometer trials to test for differences in attraction to oryctalure by CRB-G and CRB-S.
-
-Month 7,8,9,10,11: Perform surveys to measure spread of OrNV within the Guam CRB-G population.
-
-Month 12: Prepare final report.
-
-Objective 2:  Establish a Sustainable Coconut Palm Health Monitoring System
-
-Months 1,3,5,7,9,11: Island-wide roadside surveys will be done bimonthly using images recorded using an Olympus TG5 camera equipped with a GPS receiver mounted on a vehicle.
-
-Month 1: Annotate videos using the Computer Vision Annotation Tool (CVAT).
-
-Month 2: Use annotations to train an object detector for CRB damage using the Faster R-CNN model implemented in the TensorFlow object detection API. This work requires setting up a virtual machine with graphics processing unit (GPU).
-
-Month 3: Evaluate results from the trained object detector. If precision is insufficient, collect more annotated videos and add these to the training set.
-
-Month 4: Develop a software system which will take raw video GPS tracks as input, outputting CRB damage maps and statistics.
-
-Month 12: Prepare final report.
-
-\end{comment}
 
 \clearpage
 \section{Cost}
@@ -477,8 +416,6 @@ The members of the research team for this project component and their roles are 
 	
 \bibitem{Pallipparambil2015} Pallipparambil G. (2015). New Pest Response Guidelines: Oryctes rhinoceros (L.) Coleoptera:Scarabaeidae Coconut Rhinoceros Beetle [Internet]. United States Department of Agriculture - Animal and Plant Health Inspection Service - Plant Protection and Quarantine; 2015 p. 180.
 
-%\bibitem{VanderMeer1979} Vander Meer RK, Ghatak UR, Alam SK, Chakraborti PC, Alam KS, Chakraborti PC (1979). (+-)-Des-N-Morphinan: a unique bridged hydrocarbon attractant for the rhinoceros beetle, \textit{Oryctes rhinoceros}, and development of an olfactometer. Environmental Entomology. 8(1):6-10. 
-
 \bibitem{Huger2005} Huger AM (2005). The \textit{Oryctes} virus: Its detection, identification, and implementation in biological control of the coconut palm rhinoceros beetle, \textit{Oryctes rhinoceros} (Coleoptera: Scarabaeidae). Journal of Invertebrate Pathology. 89(1):78-84.
 
 \bibitem{Catley1969} Catley, A. (1969). The coconut rhinoceros beetle Oryctes rhinoceros(L). International Journal of Pest Management: Part A, 15(1), 18?30. \url{https://doi.org/10.1080/04345546909415075}
@@ -495,187 +432,19 @@ The members of the research team for this project component and their roles are 
 \endgroup
 
 
-%\newpage
-%\section{Cost Breakdown Narrative}
-%\label{sec:cost-breakdown}
-%
-%
-%\textit{Required, Cost Breakdown Narrative: Provide a 1-2 page narrative discussing each
-%cost element in sufficient detail to explain why the cost proposed is considered fair and
-%reasonable, including the techniques used to determine subcontractor costs fair and
-%reasonable.}
-%
-%\subsection{CEMML}
-%
-%\subsubsection{Labor}
-%
-%1 entomologist 5\% of \$135,810
-%
-%1 field admin support 20\% of \$90,540
-%
-%2 survey techs 100\% of \$60,360
-%
-%labor is increased by 3\% each year
-%
-%\subsubsection{Materials}
-%
-%Office Materials and Supplies: printer paper, printer cartridges: \$1,500.00
-%
-%Field Materials and Supplies: field supplies, ropes, ties, collection vials: \$5,000.00
-%
-%Computer and Laptop (Hardware and Software) 2 Laptops: \$2,000.00 each; one purchased y1, other y2
-%
-%GPS unit: \$1,000.00
-%
-%cell phone service for 3 technicians: \$1440/year
-%
-%internet access: \$1362/year
-%
-%vehicle lease: \$1440 per year
-%
-%vehicle lincensing: \$50 per year
-%
-%electrical service: \$2400 per year
-%
-%water service: \$360 per year
-%
-%building rental: \$12000 per year
-%
-%\subsection{Rent}
-%
-%\$12,000 per year
-%
-%\subsubsection{Travel}
-%
-%Off-island recruitment of field ops manager and monitoring trip to Tinian: \$11,817
-%
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{CEMML year 1}	
-%	\input{budget/CEMML-y1.tex}
-%\end{table}
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{CEMML year 2}	
-%	\input{budget/CEMML-y2.tex}
-%\end{table}
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{CEMML year 3}	
-%	\input{budget/CEMML-y3.tex}
-%\end{table}
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{CEMML year 4}	
-%	\input{budget/CEMML-y4.tex}
-%\end{table}
-%
-%\clearpage
-%
-%\subsection{NCSU}
-%
-%\subsubsection{Staffing}
-%
-%Godshen 5\% (Total salary 83k, so 5\% of that)
-%
-%Subject matter specialist (or working committee coordinator) 50\% @36.5\$/hour
-%
-%\subsubsection{Indirect costs for NC State}
-%
-%27.6\% of the staffing costs for CIPM (so not the entire amount) + 27.6\% of the first 25k for each subcontract (i.e. if two subcontracts larger than 25k goes out from CIPM, then 27.6\% of 50k)
-%
-%\subsubsection{Rent}
-%
-%Rent \$1,000 per year)
-%
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{NCSU year 1}	
-%	\input{budget/NCSU-y1.tex}
-%\end{table}
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{NCSU year 2}	
-%	\input{budget/NCSU-y2.tex}
-%\end{table}
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{NCSU year 3}	
-%	\input{budget/NCSU-y3.tex}
-%\end{table}
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{NCSU year 4}	
-%	\input{budget/NCSU-y4.tex}
-%\end{table}
-%
-%\clearpage
-%
-%\subsection{UOG}
-%
-%\subsubsection{Labor}
-%
-%2 lab techs @ \$60,360 gross
-%2 survey techs @ \$60,360 gross
-%1 field ops manager 50\% @ \$95,680 gross
-%1 insect pathologist @ \$83,200 gross
-%1 entomologist 5\% @ \$130,000 gross
-%
-%labor is increased by 3\% each year
-%
-%\subsubsection{Materials}
-%
-%UOG will procure pheromone traps and lures for both UOG (1000 traps) and CEMML (500 traps). Replacement rate estimated at 500 traps per year.
-%
-%Lab and insect rearing supplies \$3,000 per year
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{UOG year 1}	
-%	\input{budget/UOG-y1.tex}
-%\end{table}
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{UOG year 2}	
-%	\input{budget/UOG-y2.tex}
-%\end{table}
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{UOG year 3}	
-%	\input{budget/UOG-y3.tex}
-%\end{table}
-%
-%\begin{table}[h]
-%	\centering
-%	\caption{UOG year 4}	
-%	\input{budget/UOG-y4.tex}
-%\end{table}
-%
 
 \clearpage
 \section{Supporting Technical Data}
 
 \textit{Optional: Supporting Technical Data (limited to 3 pages): Data sheets, charts, referenced research extracts.} \\
 
-% TODO: \usepackage{graphicx} required
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{images/vcuts}
-	\caption{Image downloaded from \url{www.crbhawaii.org.}}
+	\caption{Image downloaded from \url{https://www.crbhawaii.org}}
 	\label{fig:vcuts}
 \end{figure}
 
-% TODO: \usepackage{graphicx} required
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.7\linewidth]{images/crb-mexico}
@@ -704,38 +473,10 @@ The members of the research team for this project component and their roles are 
 	\label{fig:majuro-webmap}
 \end{figure}
 
-
-
-%\begin{figure}[h]
-%\centering
-%\includegraphics[width=1\linewidth]{ornv_response_fiji}
-%\caption{Reduction in coconut palm damage following release of \textit{Orytes rhinoceros} nudivirus in Fuji. From Bedford 1886 \cite{Bedford1986}.}
-%\label{fig:ornv_response_fiji}
-%\end{figure}
-	
-
-
-%\begin{table}[h]
-%	\centering
-%	\caption{Meetings of the CRB-G Action Group}
-%	\begin{tabular}{l}
-%		\toprule
-%		2015 Pacific Entomology Conference, Honolulu, HI, USA \\
-%		2016 International Congress of Entomology, Orlando, USA \\
-%		2017 Japanese Society for Insect Pathology, Tokyo, Japan \\
-%		2018 Society for Invertebrate Pathology, Gold Coast, Australia \\
-%		2019 XIX International Plant Protection Congress, Hyderabad, India \\
-%		2020 (tentative): Pacific Plant Protection Organization, Guam \\
-%		\bottomrule
-%	\end{tabular}
-%	\label{tab:action-group}
-%\end{table}	
-	
-%
 \clearpage
 \section{Existing Support}
 
-\textit{Optional: Existing Support: If the Principal Investigator is funded by other programs to conduct research that overlaps or parallels the current proposal, provide a brief description of that support (1?2 page per relevant effort).} \\
+\textit{Optional: Existing Support: If the Principal Investigator is funded by other programs to conduct research that overlaps or parallels the current proposal, provide a brief description of that support (half a page per relevant effort).} \\
 
 COMING SOON.
 
