@@ -43,7 +43,7 @@ colorlinks=true, anchorcolor=blue, urlcolor=blue, linkcolor=blue, citecolor=blue
 \usepackage{colortbl}
 \usepackage{ragged2e}
 \usepackage{comment}
-\usepackage{pdfpages}
+%\usepackage{pdfpages}
 %\usepackage{graphicx}
 \usepackage{float}
 \usepackage{todonotes}
@@ -60,11 +60,10 @@ colorlinks=true, anchorcolor=blue, urlcolor=blue, linkcolor=blue, citecolor=blue
 
 \tableofcontents{}\clearpage{}
 
-\textit{Note to reader: Paragraphs in italics will be removed when the proposal is complete.} \\
+\textit{Note to reader: Paragraphs in italics will be removed when the preproposal is complete.} \\
 
 \textit{PRE-PROPOSAL LENGTH AND FORMAT: 
-Pre-proposals shall be no longer than five (5) pages, type face not less than 11-point, and margins
-not less than one inch on all sides.} 
+Pre-proposals shall be no longer than five (5) pages, type face not less than 11-point, and margins not less than one inch on all sides.} 
 
 \begin{description}
 	
@@ -93,7 +92,7 @@ Our objective is to develop an automated remote sensing system that detects, qua
 
 This proposal addresses the statement of need (SON) entitled \textit{Advancing Non-Indigenous Invasive Species Surveillance, Mitigation, or Biosecurity Measures Affecting Military Readiness in the Indo-Pacific Region}. The objective of this SON "is to solicit proposals that develop and mature the science to detect, survey, mitigate, characterize impacts, and minimize the establishment or spread of invasive species in the Indo-Pacific region".
 	
-Our goal is to provide a flexible toolkit of standardized, cost-effective CRB surveillance methods which can be used on any Pacific island for CRB surveillance to provide early detection, delimitation of new populations, and routine monitoring as part of eradication and control programs. These new tools will supplement detection and monitoring of CRB populations in conjunction with other other surveillance methods including pheromone trapping REF and E-DNA sampling currently being developed by a SERDP project REF. For island-wide roadside surveys on Guam, we estimate an annual cost of \$X for automated damage surveys and \$X for pheromone trapping. 
+Our goal is to provide a flexible toolkit of standardized, cost-effective CRB surveillance methods which can be used on any Pacific island for CRB surveillance to provide early detection, delimitation of new populations, and routine monitoring as part of eradication and control programs. 
 
 \section{Background}
 
@@ -102,6 +101,8 @@ Our goal is to provide a flexible toolkit of standardized, cost-effective CRB su
 \textit{Sufficient technical background to demonstrate a thorough understanding of the problem and frame the proposed research in the context of the current state of the science or technology.}\\
 
 Coconut rhinoceros beetle (CRB), \textit{Oryctes rhinoceros}, is one of the most problematic invasive species in the Indo-Pacific region. This beetle is endemic to the tropical Asia region (including South East Asia). CRB damages both coconut and oil palm, and is capable of killing palms when adults bore into crowns to feed on sap \cite{Bedford2013a, Bedford2013b}. For general information on CRB and response guidelines for Pacific islands invaded by this pest please see \cite{Pallipparambil2015,Jackson2020,Moore2023}. 
+
+These new tools will supplement detection and monitoring of CRB populations in conjunction with other other surveillance methods including pheromone trapping REF and E-DNA sampling currently being developed by a SERDP project REF. For island-wide roadside surveys on Guam, we estimate an annual cost of \$X for automated damage surveys and \$X for pheromone trapping. 
 
 \subsection{Invasion history of CRB in the Pacific}
 
@@ -197,17 +198,18 @@ We will improve the existing ground-based system and adapt this system to use ae
 
 Our object detectors can process images acquired from any source, including world-wide-web. In an automated scan of iNaturalist observations from Mexico, our v-shaped cut detector found coconut palms with CRB damage symptoms (Fig. \ref{fig:crb-mexico}), corroborating evidence of a CRB population in Mexico from manual searches of social media images by Jackson and Paudel \cite{Jackson2022}. We will develop automatic workflows which scan the web continually scan the web to detect images of coconut palms with CRB feeding damage symptoms.
 
-\clearpage
 \section{Schedule}
 
-\textit{The duration of the project, along with a milestone chart that delineates the timeline for each task and major deliverables.} \\
+%\textit{The duration of the project, along with a milestone chart that delineates the timeline for each task and major deliverables.} \\
 
-The duration of this project component will be 4 years. The first half of the project will focus on developing, evaluating and documenting survey methods and the second half will focus on field field trials of the methods. A schedule with milestones is provided as Fig. \ref{fig:gantt}.
+The duration of this project component will be 4 years. The first half of the project will focus on developing, evaluating and documenting survey methods and the second half will focus on field field trials of the methods.
 
-\begin{figure}[H]
-	%\centering
+%\begin{figure}[H]
+\centering
+\scalebox{0.7}{
 	\begin{tikzpicture}
-	\begin{ganttchart}[x unit=0.08in, 
+	\begin{ganttchart}[expand chart=\textwidth,
+	x unit=0.08in, 
 	y unit chart=0.18in,
 	group label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
 	bar label node/.style={text width=2in,align=right,font=\scriptsize\RaggedLeft,anchor=east},
@@ -218,7 +220,7 @@ The duration of this project component will be 4 years. The first half of the pr
 	\gantttitle{Year}{48} \\
 	\gantttitlelist{1,...,4}{12} \\
 	
-	\ganttgroup{\textbf{Improve ground-based system}}{1}{48} \\
+	\ganttgroup{\textbf{Improve ground-based system}}{1}{48} \\\\
 		\ganttbar{Retrain object detectors to improve accuracy}{1}{4} \\\\
 		\ganttbar{Evaluate performance using standard metrics}{4}{5} \\\\		
 		\ganttmilestone{Publish technical documentation}{6} \\
@@ -231,7 +233,7 @@ The duration of this project component will be 4 years. The first half of the pr
 		\ganttmilestone{Publish user manual}{12} \\\\
 		\ganttmilestone{Initial field trial of the aerial-based system on Guam}{13} \\\\
 		
-	\ganttgroup{\textbf{Operational field trials}}{1}{48} \\
+	\ganttgroup{\textbf{Operational field trials}}{1}{48} \\\\
 		\ganttmilestone{Quarterly ground-based roadside surveys on Guam}{3}			
 			\ganttmilestone{}{6}
 			\ganttmilestone{}{9}
@@ -249,7 +251,7 @@ The duration of this project component will be 4 years. The first half of the pr
 			\ganttmilestone{}{45} \\\\		
 		\ganttmilestone{Majuro: ground-based system for roadside survey; aerial-based survey for islets in the northern part of the atoll}{16} \\\\
 	
-	\ganttgroup{\textbf{Technology transfer and outreach}}{1}{48} \\
+	\ganttgroup{\textbf{Technology transfer and outreach}}{1}{48} \\\\
 		\ganttbar{Create workflow for automated detection of CRB damage in iNat database}{9}{10} \\\\
         \ganttbar{Create iNaturalist project}{11}{14} \\
         \ganttmilestone{User manual for iNat proj}{14} \\\\
@@ -260,9 +262,10 @@ The duration of this project component will be 4 years. The first half of the pr
 	
 	\end{ganttchart}	
 	\end{tikzpicture}
-	\caption{Project schedule.} 
-	\label{fig:gantt}
-\end{figure}
+}
+%	\caption{Project schedule.} 
+%	\label{fig:gantt}
+%\end{figure}
 
 
 
@@ -321,20 +324,25 @@ Month 12: Prepare final report.
 
 \end{comment}
 
+\clearpage
 \section{Cost}
 
 \textit{The estimated total costs, including labor, materials, travel, burdens, and profit	(fixed fee, if any, for eligible organizations) by year. A detailed breakout of costs is not	required or desired in the pre-proposal.}\\
 
-Estimated total costs for this project component are provided in Table \ref{sec:cost-breakdown}.
-
-\begin{table}[h]
+\begin{table}[H]
 	\centering
-	\caption{Summary of project cost estimates.
-		Indirect rates are 26\% for CEMML, 27.6\% for NCSU, and 15\% for UOG.
-		These rates are applied to Labor + Materials + Travel.
-		In addition, NCSU charges 27.6\% on the first \$25k of each subcontract awarded to CEMML and UOG. For details see Appendix~\ref{sec:cost-breakdown}.}	
-%	\input{budget/budget-table.tex}
-	\label{tbl:cost}
+	\caption{Estimated costs. An administrative fee, charged by the Research Corporation of the University of Guam, is 20\% of the total grant.}	
+	
+	\begin{tabular}{lr}
+		\toprule
+		\textbf{Year} & \textbf{Island} \\ \midrule
+		Labor & \$300,000 \\			
+		Materials & \$200,000 \\
+		Travel & \$200,000 \\
+		Administration fee & \$175,000 \\	\midrule
+		\textbf{Total} & \textbf{\$875,000}
+	\end{tabular}
+	\label{tbl:north}	
 \end{table}
 
 \section{Research Team}
@@ -353,9 +361,9 @@ The members of the research team for this project component and their roles are 
 		
 		Roland Quitugua (PI), University of Guam & Project management \\ \midrule
 		
-		Dr. Aubrey Moore, University of Guam (retired) & Systems design and coding \\ \midrule
+		Dr. Aubrey Moore, University of Guam (retired) & Systems design, coding, analysis and mapping \\ \midrule
 		
-		Dr. Romina King, University of Guam & Drone imagery and GIS \\ \midrule
+		Dr. Romina King, University of Guam & Aerial drone imagery and GIS \\ \midrule
 		
 		Dr. Ken Puliafico, Center for Environmental Management of Military Lands, Colorado State University & Liaison with DOD and CRB damage surveys on DOD lands in Guam. \\ \midrule
 		
@@ -397,29 +405,26 @@ The members of the research team for this project component and their roles are 
 \textit{Required: One (1) page each for the Principal Investigator and other significant performers involved with the project that provide relevant research experience. Include the full mailing addresses, phone numbers, and email addresses for each person listed.}
 
 \subsection{Roland Quitugua}
-COMING SOON.
+\fbox{\includegraphics[page=1,scale=0.7]{vitae/coming-soon.pdf}}
 
-\subsection{Dr. Aubrey Moore}
-Please see next page.
-\includepdf[pages=-]{vitae/aubrey-moore-cv.pdf}
+\subsection{Dr. Aubrey Moore - to be updated}
+\fbox{\includegraphics[page=1,scale=0.7]{vitae/aubrey-moore-cv.pdf}}
 
 \subsection{Dr. Romina King}
-COMING SOON.
+\fbox{\includegraphics[page=1,scale=0.7]{vitae/coming-soon.pdf}}
 
-\subsection{Dr. Kenneth Puliafico}
-Please see next page.
-\includepdf[pages=-]{vitae/Puliafico.pdf}
+\subsection{Dr. Kenneth Puliafico - to be updated}
+\fbox{\includegraphics[page=1,scale=0.7]{vitae/Puliafico.pdf}}
 
 \subsection{Dr. Mark Ero}
-COMING SOON.
+\fbox{\includegraphics[page=1,scale=0.7]{vitae/coming-soon.pdf}}
 
 \subsection{Dr. Sulav Paudel}
-COMING SOON.
+\fbox{\includegraphics[page=1,scale=0.7]{vitae/coming-soon.pdf}}
 
 \subsection{Dr. Sean Marshall}
-COMING SOON.
+\fbox{\includegraphics[page=1,scale=0.7]{vitae/coming-soon.pdf}}
 
-\clearpage
 \section{List of Acronyms}
 
 \textit{Required: Provide a complete list of acronyms used in your preproposal and their definitions. List the proposal number at the top of the page.} \\
