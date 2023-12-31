@@ -1,17 +1,12 @@
 \babel@toc {english}{}
 \contentsline {section}{\numberline {1}Objective}{2}{section.1}%
 \contentsline {section}{\numberline {2}Background}{2}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Invasion history of CRB in the Pacific}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Invasion history of CRB in the Pacific}{2}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}CRB damage survey methods}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Automation of CRB damage surveys}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Images of CRB damage on the world-wide-web}{4}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Previous work on automated CRB damage surveys}{4}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.1}Automation of CRB damage surveys}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Previous work on automated CRB damage surveys}{4}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Images of CRB damage on the world-wide-web}{4}{subsubsection.2.2.3}%
 \contentsline {section}{\numberline {3}Approach}{4}{section.3}%
-\contentsline {paragraph}{\nonumberline Design features.}{4}{section*.8}%
-\contentsline {paragraph}{\nonumberline Object detectors.}{4}{section*.9}%
-\contentsline {paragraph}{\nonumberline Roadside surveys.}{5}{section*.10}%
-\contentsline {paragraph}{\nonumberline Aerial drone surveys.}{5}{section*.11}%
-\contentsline {paragraph}{\nonumberline World wide web surveys.}{5}{section*.12}%
 \contentsline {section}{\numberline {4}Schedule}{5}{section.4}%
 \contentsline {section}{\numberline {5}Cost}{6}{section.5}%
 \contentsline {section}{\numberline {6}Research Team}{6}{section.6}%
@@ -25,5 +20,5 @@
 \contentsline {subsection}{\numberline {A.7}Dr. Sean Marshall}{14}{subsection.A.7}%
 \contentsline {section}{\numberline {B}List of Acronyms}{14}{appendix.B}%
 \contentsline {section}{\numberline {C}Literature Citations}{16}{appendix.C}%
-\contentsline {section}{\numberline {D}Supporting Technical Data}{17}{appendix.D}%
-\contentsline {section}{\numberline {E}Existing Support}{20}{appendix.E}%
+\contentsline {section}{\numberline {D}Supporting Technical Data}{18}{appendix.D}%
+\contentsline {section}{\numberline {E}Existing Support}{21}{appendix.E}%
