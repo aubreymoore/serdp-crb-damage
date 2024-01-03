@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {6}Research Team}{6}{section.6}%
 \contentsline {section}{\numberline {A}Abbreviated Curriculum Vitae}{7}{appendix.A}%
 \contentsline {subsection}{\numberline {A.1}Roland Quitugua}{8}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Dr. Aubrey Moore - to be updated}{9}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.2}Dr. Aubrey Moore}{9}{subsection.A.2}%
 \contentsline {subsection}{\numberline {A.3}Dr. Romina King}{10}{subsection.A.3}%
 \contentsline {subsection}{\numberline {A.4}Dr. Kenneth Puliafico - to be updated}{11}{subsection.A.4}%
 \contentsline {subsection}{\numberline {A.5}Dr. Mark Ero}{12}{subsection.A.5}%
